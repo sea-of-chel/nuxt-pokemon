@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 767px) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+button {
+  color: #5700ff;
+  padding: 16px 29px;
+  border-radius: 100px;
+  border: 2px solid #5700ff;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
