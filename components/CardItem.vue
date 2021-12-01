@@ -24,6 +24,7 @@
 </template>
 <script>
 export default {
+	//pokemon prop (this comment is a test)
   props: ["pokemon"]
 };
 </script>
